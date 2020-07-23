@@ -11,7 +11,7 @@
 export default {
   data: function() {
     return {
-      message: "Welcome to Vue.js!",
+      message: "Welcome to the Mystery Science Theater 3000 Database",
     };
   },
   created: function() {},
