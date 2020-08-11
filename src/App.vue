@@ -1,20 +1,35 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
+    <!-- Content -->
+    <div id="content">
+      <div class="inner">
+        <!-- Post -->
+        <article class="box post post-excerpt">
+          <header>
+            <!--
+									Note: Titles and subtitles will wrap automatically when necessary, so don't worry
+									if they get too long. You can also remove the <p> entirely if you don't
+									need a subtitle.
+            -->
+            <h2>
+              <a href="#">Welcome to Mystery Science Theater 3000 Database</a>
+            </h2>
+            <p>This is a collection of all available MST3K episodes available online</p>
+          </header>
+        </article>
+      </div>
     </div>
     <router-view />
   </div>
 </template>
 
 <style>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 #nav {
@@ -23,10 +38,10 @@
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
 #nav a.router-link-exact-active {
   color: #f5de11;
-}
+} */
 </style>
